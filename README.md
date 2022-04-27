@@ -4,7 +4,12 @@ https://docs.python.org/3/library/asyncio.html
 **Most addons are network bound, trying to get rid of it.**
 
 # Seems to be working
-Got https://docs.aiohttp.org/en/stable/web_quickstart.html# up.
+A Service
+ - https://docs.aiohttp.org/en/stable/web_quickstart.html#.
+
+Hosting a Client :)
+ - https://docs.aiohttp.org/en/stable/client_quickstart.html
+
 ```
 2022-04-27 22:18:25.581 T:4483    DEBUG <general>: AIOHTTP getting event-loop, http://localhost:1081
 2022-04-27 22:18:27.423 T:4460    DEBUG <general>: Sink changed
