@@ -20,7 +20,7 @@ class Service:
             async with session.get('http://httpbin.org/get') as resp:
                 await resp.text()
 
-        text = f'Hello there! Wanna run a test? Ups ran it already...\nhttp://httpbin.org/get.resp={resp}'
+        text = f'Hello there! Wanna run a test? Ups ran it already...\n\n\nhttp://httpbin.org/get -> {resp}={resp}'
         return web.Response(
             text=text)
 
